@@ -175,8 +175,6 @@ button {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	object-fit: contain;
-	margin-left: 615px;
-	margin-right: 615px;
 }
 #facebook {
 	height: 50px;
