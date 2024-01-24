@@ -1,1 +1,21 @@
 /* Copy your CSS code from CodePen below this point */
+
+<footer class="end">
+	<p style="text-align:center;"><a href="https://en.wikipedia.org/wiki/Fibonacci"><br>
+			Fibonacci</a></p>
+	<div class="social">
+		<div class="image">
+			<a href="https://www.facebook.com/">
+				<img id="facebook" src="https://i.imgur.com/SW65bUL.png" alt="Facebook">
+			</a>
+		</div>
+		<div class="image">
+			<a href="https://www.instagram.com/"> <img id="instagram" src="https://i.imgur.com/L2J5fak.png" alt="Instagram"> </a>
+		</div>
+		<div class="image">
+			<a href="https://twitter.com/?lang=en"> <img id="twitter" src="https://i.imgur.com/hIbaaes.png" alt="TwitterX"> </a>
+		</div>
+	</div>
+	<p style="Text-align: center;">2023 - Paulo Delfino, LLC. All Rights Reserved</p>
+	<a href="#top">Back to Top</a>
+</footer>
