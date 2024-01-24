@@ -1,21 +1,206 @@
 /* Copy your CSS code from CodePen below this point */
 
-<footer class="end">
-	<p style="text-align:center;"><a href="https://en.wikipedia.org/wiki/Fibonacci"><br>
-			Fibonacci</a></p>
-	<div class="social">
-		<div class="image">
-			<a href="https://www.facebook.com/">
-				<img id="facebook" src="https://i.imgur.com/SW65bUL.png" alt="Facebook">
-			</a>
-		</div>
-		<div class="image">
-			<a href="https://www.instagram.com/"> <img id="instagram" src="https://i.imgur.com/L2J5fak.png" alt="Instagram"> </a>
-		</div>
-		<div class="image">
-			<a href="https://twitter.com/?lang=en"> <img id="twitter" src="https://i.imgur.com/hIbaaes.png" alt="TwitterX"> </a>
-		</div>
-	</div>
-	<p style="Text-align: center;">2023 - Paulo Delfino, LLC. All Rights Reserved</p>
-	<a href="#top">Back to Top</a>
-</footer>
+html {
+	background: BurlyWood;
+	display: none;
+}
+body {
+	background-image: url("https://i.imgur.com/XEvEnUR.jpeg");
+	background-repeat: no-repeat;
+	margin: 0;
+}
+.navbar ul {
+	display: flex;
+	order: 2;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+	width: 100%;
+	margin-top: auto;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: whitesmoke;
+	opacity: 0.6;
+}
+
+.navbar a {
+	color: black;
+	text-decoration: none;
+	padding: 8px;
+	display: flex;
+	font-size: 20px;
+}
+
+.navbar a:hover {
+	color: orangered;
+}
+p {
+	text-indent: 20px;
+}
+header {
+	color: white;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 00px;
+	height: 100px;
+	font-size: 25px;
+}
+.about{
+	display:flex;
+	justify-content:center;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius:50%
+}
+.box {
+	color: white;
+	display:block;
+	justify-content:center;
+	padding-left:200px;
+	padding-right:200px;
+	padding-top:200px;
+	padding-bottom:200px;
+}
+.items {
+	display: flex;
+	order: 2;
+	justify-content: space-between;
+	color: crimson;
+	margin-left: 0px;
+	margin-right: 100px;
+}
+.hours {
+	display: none;
+	width: 400px;
+}
+
+.hours li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #cc3333;
+	font-size: 15.5px;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+#food-truck {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 95%;
+	height: auto;
+	padding: 10px;
+	opacity: ;
+}
+#nachos {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+	height: auto;
+	padding: 10px;
+}
+.menu {
+	text-align: center;
+	width: 800px;
+	background: linear-gradient(
+		to bottom,
+		BurlyWood,
+		Khaki,
+		DarkKhaki,
+		Khaki,
+		BurlyWood
+	);
+	margin: auto;
+	border: 5px solid #bbb;
+	border-radius: 75px;
+	box-shadow: inset 2px 2px 10px 1px rgba(0, 0, 0, 1);
+	height: 1800px;
+}
+.menu h2 {
+	color: DarkRed;
+	font-family: arial;
+	margin: 10px;
+	padding: 5px;
+}
+.menu h3 {
+	color: red;
+	font-family: arial;
+	font-size: 25px;
+	margin: 10px;
+	padding: 5px;
+}
+.menu h4 {
+	font-family: arial;
+	color: FireBrick;
+	margin: 20px;
+	font-size: 20px;
+	padding: 5px;
+}
+.menu p {
+	margin: 10px;
+	font-size: 15px;
+	line-height: 15px;
+	padding: 5px;
+}
+button {
+	background-color: BurlyWood;
+	height: 38px;
+	width: 267px;
+}
+#show-button:hover {
+	background: none;
+}
+#show-button {
+	color: blue;
+	width: 400px;
+	border: none;
+	background: none;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 20px;
+}
+#other:hover {
+	background: #eee;
+}
+.mathF {
+	display: flex;
+	justify-content: space-evenly;
+	margin: auto;
+	height: 200px;
+	opacity: 70%;
+}
+.social {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	object-fit: contain;
+	margin-left: 615px;
+	margin-right: 615px;
+}
+#facebook {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+#instagram {
+	height: 50px;
+	width: 50px;
+	border-radius: 30%;
+}
+#twitter {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.start {
+	display: flex;
+	height: 100px;
+	width: auto;
+	justify-content: space-between;
+}
+#logo {
+	height: 100px;
+	width: 200px;
+}
